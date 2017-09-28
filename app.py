@@ -38,3 +38,12 @@ model.fit(train[columns], train[target])
 
 predictions = model.predict(test[columns])
 print (mean_squared_error(predictions, test[target]))
+
+model = RandomForestRegressor(n_estimators=100, min_samples_leaf=10, random_state=1)
+# Fit the model to the data.
+model.fit(train[columns], train[target])
+# Make predictions.
+predictions = model.predict(test[columns])
+# Compute the error.
+print (mean_squared_error(predictions, test[target]))
+
