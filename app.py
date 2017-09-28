@@ -57,3 +57,7 @@ model.fit(train[columns], train[target])
 predictions = model.predict(test[columns])
 print (mean_squared_error(predictions, test[target]))
 
+model = SGDRegressor()
+model.fit(train[columns], train[target])
+predictions = model.predict(test[columns])
+print (mean_squared_error(predictions, test[target]))
