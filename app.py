@@ -52,3 +52,8 @@ model.fit(train[columns], train[target])
 predictions = model.predict(test[columns])
 print (mean_squared_error(predictions, test[target]))
 
+model = tree.DecisionTreeRegressor()
+model.fit(train[columns], train[target])
+predictions = model.predict(test[columns])
+print (mean_squared_error(predictions, test[target]))
+
