@@ -47,3 +47,8 @@ predictions = model.predict(test[columns])
 # Compute the error.
 print (mean_squared_error(predictions, test[target]))
 
+model = SVR()
+model.fit(train[columns], train[target])
+predictions = model.predict(test[columns])
+print (mean_squared_error(predictions, test[target]))
+
