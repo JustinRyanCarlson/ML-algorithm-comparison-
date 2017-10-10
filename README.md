@@ -1,2 +1,2 @@
 # ML-algorithm-comparison
-### Example for comparing different algorithms
+### Example for comparing different SciKit Learn algorithms
