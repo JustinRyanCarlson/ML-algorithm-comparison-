@@ -1,2 +1,2 @@
 # ML-algorithm-comparison
-### Example for comparing different SciKit Learn algorithms
+### Example for comparing different SciKit Learn algorithms using data from Board Game Geeks
